@@ -1,0 +1,24 @@
+
+# AI Document Assistant - Python Dependencies
+
+# Web Application
+streamlit
+
+# PDF Processing and Report Generation
+pymupdf
+reportlab
+
+# AI and Embeddings
+sentence-transformers
+faiss-cpu
+
+# Data Processing
+numpy
+pandas
+
+# API and Utilities
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+requests

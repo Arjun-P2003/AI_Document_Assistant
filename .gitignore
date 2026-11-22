@@ -1,0 +1,81 @@
+
+# ==========================================
+# AI DOCUMENT ASSISTANT - GITIGNORE
+# ==========================================
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.toml
+.streamlit/secrets.toml
+
+# Uploaded documents and local datasets
+data/*
+!data/.gitkeep
+
+# Generated PDF, TXT and JSON reports
+reports/
+exports/
+outputs/
+temp/
+tmp/
+
+# Local vector databases and embeddings
+faiss_index/
+vector_store/
+vector_db/
+chroma_db/
+*.faiss
+*.index
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Local AI model files
+*.gguf
+*.ggml
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Test and coverage caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/cache/
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
